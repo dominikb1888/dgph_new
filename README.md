@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Just the Class
+title: DGPH
 nav_exclude: true
 permalink: /:path/
 seo:
@@ -8,32 +8,127 @@ seo:
   name: Just the Class
 ---
 
-# Just the Class
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+# Digital Health
 
-- [announcements](announcements.md),
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+Introduction to Digital Health for Global Public Health Master students with a practical focus on web technologies, programming, and data visualization.
 
-Just the Class is a template that extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
 
-- automatic [navigation structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://just-the-docs.github.io/just-the-docs/docs/search/) and page indexing,
-- and a set of [UI components](https://just-the-docs.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://just-the-docs.github.io/just-the-docs/docs/utilities).
+---
 
-## Getting Started
+## A. Computers, Networking, and the Web
 
-Getting started with Just the Class is simple.
+Required Reading: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=7275452
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `README.md` with your course information. [Be sure to update the url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add more content pages.
+### 1. Digging Deeper - Understanding your machine
 
-Just the Class has been used by instructors at Stanford University ([CS 161](https://stanford-cs161.github.io/winter2021/)), UC Berkeley ([Data 100](https://ds100.org/fa21/)), UC Santa Barbara ([CSW8](https://ucsb-csw8.github.io/s22/)), Northeastern University ([CS4530/5500](https://neu-se.github.io/CS4530-CS5500-Spring-2021/)), and Carnegie Mellon University ([17-450/17-950](https://cmu-crafting-software.github.io/)). Share your course website and find more examples in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
+- Interactive: The Status Quo and Future Outlook of Digital Health around the world
+- Hands-on: [Chapter 1 and 2](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=7275452)
 
-### Local development environment
+- Preparing a Simple Website with HTML and CSS
+- Uploading your Site to Github
+- More on the Git Protocol: https://twitter.com/alexxubyte/status/1708145139515109449
 
-Just the Class requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler. To setup a local development environment, clone your template repository and follow the GitHub Docs on [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+### 2. Networking - The web and its infrastructure
+
+- Interactive: Servers, Clients, IPs and Protocols of the Internet
+  - Tech Concepts Visualized: https://twitter.com/alexxubyte
+  - URL/URI/URN: https://twitter.com/alexxubyte/status/1695825224019943714/photo/1
+  - Request/Response on the Web: https://twitter.com/alexxubyte/status/1711406474654814575
+  - HTTP Status Codes: https://twitter.com/alexxubyte/status/1712487706859905137/photo/1
+  - HTTPS: https://twitter.com/bytebytego/status/1715973551235510532/photo/1
+  - TCP/IP: https://twitter.com/bagder/status/1716693365234798909/photo/1
+  - Advanced Network Protocols: https://twitter.com/alexxubyte/status/1708863540067696878
+- Hands-on:
+  - Extending the Webpage [Chapter 3-6 - Additonal Elements, Lists, Links, Tables, Images](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=7275452&ppg=66)
+  - Serving your page with Python
+
+### 3. Presentation - Cascading Stylesheets (CSS)
+
+Hands-on: [Cascading Stylesheets - Chapters 7-10](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=7275452&ppg=162)
+
+### 4. Responsive and Interactive Websites
+
+- Hands-on: [Chapter 10-11](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=7275452&ppg=240)
+- Tutorial: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids
+
+
+---
+
+## B. Data Analytics and Cleaning with R
+
+Excercise:
+- https://www.appliedepi.org/tutorial/
+
+Reading:
+- https://epirhandbook.com/en/r-basics.html
+- [Tidyverse](https://r4ds.had.co.nz/)
+
+### 1. Intro to RStudio & R Data Types (Module 1)
+
+Prepare:
+  - R Basics: https://tutorials.appliedepi.org/app/basics
+
+Lecture:
+ - Data Types and Functions in R (https://sydney-informatics-hub.github.io/lessonbmc/02-BMC_R_Day1_B/index.html)
+ - Vectors and Lists https://jennybc.github.io/purrr-tutorial/bk00_vectors-and-lists.html
+
+### 2. Project Setup & Tidy Data (Module 2)
+
+Prepare:
+- https://tutorials.appliedepi.org/app/preparation
+
+Lecture:
+- https://epirhandbook.com/en/import-and-export.html
+
+### 3. Cleaning Data with R (Module 3+4)
+
+Prepare:
+- https://tutorials.appliedepi.org/app/cleaning
+
+Lecture:
+- https://epirhandbook.com/en/cleaning-data-and-core-functions.html
+- https://epirhandbook.com/en/working-with-dates.html
+- https://epirhandbook.com/en/characters-and-strings.html
+- https://epirhandbook.com/en/factors.html
+
+### 4. Group Data (Module 5)
+
+Lecture:
+- https://epirhandbook.com/en/grouping-data.html
+
+### 5. Joining and Pivoting Data (Module 7 - optional)
+
+Lecture:
+- https://epirhandbook.com/en/pivoting-data.html
+- https://epirhandbook.com/en/joining-data.html
+- https://epirhandbook.com/en/de-duplication.html
+
+---
+
+## C.  Interactive Visualization with Shiny and ggplot
+
+### 1. Visualizing Data with ggplot (Module 6)
+
+Prepare:
+- https://tutorials.appliedepi.org/app/ggplot
+
+Lecture:
+- https://epirhandbook.com/en/tables-for-presentation.html
+- https://epirhandbook.com/en/ggplot-basics.html
+- https://epirhandbook.com/en/ggplot-tips.html
+- https://epirhandbook.com/en/reports-with-r-markdown.html
+- https://epirhandbook.com/en/dashboards-with-r-markdown.html
+
+### 2. Creating Interactive Visualizations with Shiny
+
+Lecture:
+- https://epirhandbook.com/en/dashboards-with-shiny.html
+
+### 3. Theming Shiny Applications with HTML and CSS
+- Let's give the last touch ups to our projects!
+
+---
+## Further Resources
+
+- https://r4epis.netlify.app/
