@@ -62,7 +62,7 @@ Excercise:
 - https://www.appliedepi.org/tutorial/
 
 Reading:
-- https://epirhandbook.com/en/r-basics.html
+- [](https://epirhandbook.com/en/new_pages/basics.html)
 - [Tidyverse](https://r4ds.had.co.nz/)
 
 ### 1. Intro to RStudio & R Data Types (Module 1)
@@ -71,8 +71,8 @@ Prepare:
   - R Basics: https://tutorials.appliedepi.org/app/basics
 
 Lecture:
- - Data Types and Functions in R (https://sydney-informatics-hub.github.io/lessonbmc/02-BMC_R_Day1_B/index.html)
- - Vectors and Lists https://jennybc.github.io/purrr-tutorial/bk00_vectors-and-lists.html
+ - Data Types and Functions in R [](https://sydney-informatics-hub.github.io/lessonbmc/02-BMC_R_Day1_B/index.html)
+ - Vectors and Lists [](https://jennybc.github.io/purrr-tutorial/bk00_vectors-and-lists.html)
 
 ### 2. Project Setup & Tidy Data (Module 2)
 
