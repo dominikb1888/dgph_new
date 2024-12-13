@@ -59,16 +59,16 @@ Hands-on: [Cascading Stylesheets - Chapters 7-10](https://ebookcentral.proquest.
 ## B. Data Analytics and Cleaning with R
 
 Excercise:
-- https://www.appliedepi.org/tutorial/
+- [Applied EPI Tutorial](https://www.appliedepi.org/tutorial/)
 
 Reading:
-- [](https://epirhandbook.com/en/new_pages/basics.html)
+- [R Basics](https://epirhandbook.com/en/new_pages/basics.html)
 - [Tidyverse](https://r4ds.had.co.nz/)
 
 ### 1. Intro to RStudio & R Data Types (Module 1)
 
 Prepare:
-  - R Basics: https://tutorials.appliedepi.org/app/basics
+  - R Basics: [](https://tutorials.appliedepi.org/app/basics)
 
 Lecture:
  - Data Types and Functions in R [](https://sydney-informatics-hub.github.io/lessonbmc/02-BMC_R_Day1_B/index.html)
@@ -77,57 +77,79 @@ Lecture:
 ### 2. Project Setup & Tidy Data (Module 2)
 
 Prepare:
-- https://tutorials.appliedepi.org/app/preparation
+- [Preparation Tutorial](https://tutorials.appliedepi.org/app/preparation)
 
 Lecture:
-- https://epirhandbook.com/en/import-and-export.html
+- [Import and Export](https://epirhandbook.com/en/import-and-export.html)
 
 ### 3. Cleaning Data with R (Module 3+4)
 
 Prepare:
-- https://tutorials.appliedepi.org/app/cleaning
+- [Cleaning Tutorial](https://tutorials.appliedepi.org/app/cleaning)
 
 Lecture:
-- https://epirhandbook.com/en/cleaning-data-and-core-functions.html
-- https://epirhandbook.com/en/working-with-dates.html
-- https://epirhandbook.com/en/characters-and-strings.html
-- https://epirhandbook.com/en/factors.html
+- [Cleaning Data and Core Functions](https://epirhandbook.com/en/new_pages/cleaning-data-and-core-functions.html)
+- [Working with Dates](https://epirhandbook.com/en/new_pages/working-with-dates.html)
+- [Characters and Strings](https://epirhandbook.com/en/new_pages/characters-and-strings.html)
+- [Factors](https://epirhandbook.com/en/new_pages/factors.html)
 
 ### 4. Group Data (Module 5)
 
 Lecture:
-- https://epirhandbook.com/en/grouping-data.html
+- [Grouping Data](https://epirhandbook.com/en/new_pages/grouping-data.html)
 
 ### 5. Joining and Pivoting Data (Module 7 - optional)
 
 Lecture:
-- https://epirhandbook.com/en/pivoting-data.html
-- https://epirhandbook.com/en/joining-data.html
-- https://epirhandbook.com/en/de-duplication.html
+- [Pivoting Data](https://epirhandbook.com/en/new_pages/pivoting-data.html)
+- [Joining Data](https://epirhandbook.com/en/new_pages/joining-data.html)
+- [De-Duplication](https://epirhandbook.com/en/new_pages/de-duplication.html)
 
 ---
 
-## C.  Interactive Visualization with Shiny and ggplot
+## C. Interactive Visualization with Shiny and ggplot
 
 ### 1. Visualizing Data with ggplot (Module 6)
 
 Prepare:
-- https://tutorials.appliedepi.org/app/ggplot
+- [GGPlot Tutorial](https://tutorials.appliedepi.org/app/ggplot)
 
 Lecture:
-- https://epirhandbook.com/en/tables-for-presentation.html
-- https://epirhandbook.com/en/ggplot-basics.html
-- https://epirhandbook.com/en/ggplot-tips.html
-- https://epirhandbook.com/en/reports-with-r-markdown.html
-- https://epirhandbook.com/en/dashboards-with-r-markdown.html
+- [Tables for Presentation](https://epirhandbook.com/en/new_pages/tables-for-presentation.html)
+- [GGPlot Basics](https://epirhandbook.com/en/new_pages/ggplot-basics.html)
+- [GGPlot Tips](https://epirhandbook.com/en/new_pages/ggplot-tips.html)
+
+Optional:
+- [RMarkdown](https://epirhandbook.com/en/new_pages/reports-with-r-markdown.html)
+- [Dashboard with RMarkdown](https://epirhandbook.com/en/new_pages/dashboards-with-r-markdown.html)
 
 ### 2. Creating Interactive Visualizations with Shiny
 
 Lecture:
-- https://epirhandbook.com/en/dashboards-with-shiny.html
+- [Dashboards with Shiny](https://epirhandbook.com/en/new_pages/dashboards-with-shiny.html)
 
 ### 3. Theming Shiny Applications with HTML and CSS
 - Let's give the last touch ups to our projects!
+
+
+
+## Exam
+
+- Analyze: Take a dataset of your choice. Clean it, analyzeit and visualize it.
+- Contextualize: Describe your key user persona and their aspired actions and targets
+- Implement: Produce an interactive Data Visualization using Shiny
+
+Submission:
+- 2 pages reporting on the Context of your Visualizaton
+- R Files necessary to build the visualization
+- Data Files
+- Link to you Github Repo
+- Link to your Shiny Application
+
+Limitations:
+You can upload a maximum of 20 files with 30M each during the final exam. If your dataset is larger than 30M please only upload a subset of it.
+
+
 
 ---
 ## Further Resources
