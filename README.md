@@ -145,6 +145,7 @@ Submission:
 - Data Files
 - Link to you Github Repo
 - Link to your Shiny Application
+- renv.lock file with all your dependencies  (See: https://rstudio.github.io/renv/articles/collaborating.html)
 
 Limitations:
 You can upload a maximum of 20 files with 30M each during the final exam. If your dataset is larger than 30M please only upload a subset of it.
