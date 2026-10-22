@@ -8,7 +8,7 @@
   packages = [ pkgs.git ];
 
   # https://devenv.sh/languages/
-  # languages.rust.enable = true;
+  languages.python.enable = true;
 
   # https://devenv.sh/processes/
   # processes.cargo-watch.exec = "cargo-watch";
