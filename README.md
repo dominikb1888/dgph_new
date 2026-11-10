@@ -29,7 +29,7 @@ Required Reading: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.act
 - Uploading your Site to Github
 - More on the Git Protocol: [https://twitter.com/alexxubyte/status/1708145139515109449](https://twitter.com/alexxubyte/status/1708145139515109449)
 
-### 2. Networking - The web and its infrastructure
+### 2. Networking - The Web and its Infrastructure
 
 - Interactive: Servers, Clients, IPs and Protocols of the Internet
   - Tech Concepts Visualized: [https://twitter.com/alexxubyte](https://twitter.com/alexxubyte)
@@ -53,99 +53,46 @@ Hands-on: [Cascading Stylesheets - Chapters 7-10](https://ebookcentral.proquest.
 - Tutorial: [ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids)
 
 
-
 ---
 
-## B. Data Analytics and Cleaning with R
+## B. Data Visualization: Analysis and Design
 
-Excercise:
-- [Applied EPI Tutorial](https://www.appliedepi.org/tutorial/)
+[](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=1664615&query=data%2520vis)
 
-Reading:
-- [R Basics](https://epirhandbook.com/en/new_pages/basics.html)
-- [Tidyverse](https://r4ds.had.co.nz/)
+### Let hit Snow 
 
-### 1. Intro to RStudio & R Data Types (Module 1)
-
-Prepare:
-  - R Basics: [](https://tutorials.appliedepi.org/app/basics)
-
-Lecture:
- - Data Types and Functions in R [](https://sydney-informatics-hub.github.io/lessonbmc/02-BMC_R_Day1_B/index.html)
- - Vectors and Lists [](https://jennybc.github.io/purrr-tutorial/bk00_vectors-and-lists.html)
-
-### 2. Project Setup & Tidy Data (Module 2)
-
-Prepare:
-- [Preparation Tutorial](https://tutorials.appliedepi.org/app/preparation)
-
-Lecture:
-- [Import and Export](https://epirhandbook.com/en/import-and-export.html)
-
-### 3. Cleaning Data with R (Module 3+4)
-
-Prepare:
-- [Cleaning Tutorial](https://tutorials.appliedepi.org/app/cleaning)
-
-Lecture:
-- [Cleaning Data and Core Functions](https://epirhandbook.com/en/new_pages/cleaning-data-and-core-functions.html)
-- [Working with Dates](https://epirhandbook.com/en/new_pages/working-with-dates.html)
-- [Characters and Strings](https://epirhandbook.com/en/new_pages/characters-and-strings.html)
-- [Factors](https://epirhandbook.com/en/new_pages/factors.html)
-
-### 4. Group Data (Module 5)
-
-Lecture:
-- [Grouping Data](https://epirhandbook.com/en/new_pages/grouping-data.html)
-
-### 5. Joining and Pivoting Data (Module 7 - optional)
-
-Lecture:
-- [Pivoting Data](https://epirhandbook.com/en/new_pages/pivoting-data.html)
-- [Joining Data](https://epirhandbook.com/en/new_pages/joining-data.html)
-- [De-Duplication](https://epirhandbook.com/en/new_pages/de-duplication.html)
-
----
-
-## C. Interactive Visualization with Shiny and ggplot
-
-### 1. Visualizing Data with ggplot (Module 6)
-
-Prepare:
-- [GGPlot Tutorial](https://tutorials.appliedepi.org/app/ggplot)
-
-Lecture:
-- [Tables for Presentation](https://epirhandbook.com/en/new_pages/tables-for-presentation.html)
-- [GGPlot Basics](https://epirhandbook.com/en/new_pages/ggplot-basics.html)
-- [GGPlot Tips](https://epirhandbook.com/en/new_pages/ggplot-tips.html)
-
-Optional:
-- [RMarkdown](https://epirhandbook.com/en/new_pages/reports-with-r-markdown.html)
-- [Dashboard with RMarkdown](https://epirhandbook.com/en/new_pages/dashboards-with-r-markdown.html)
-
-### 2. Creating Interactive Visualizations with Shiny
-
-Lecture:
-- [Dashboards with Shiny](https://epirhandbook.com/en/new_pages/dashboards-with-shiny.html)
-
-### 3. Theming Shiny Applications with HTML and CSS
-- Let's give the last touch ups to our projects!
+- Rebuilding the map that started Public Health
 
 
+### Basics of Digital Visual Design
+
+- Pixel vs. Vector Graphics
+- Fonts
+- Color Schemes
+
+### Data Visualization
+
+- Developing a rigid Language (Tamara Munzner)
+
+
+## C. Building and Shipping Web Applications and/or Omarchy Plugins (PWA, TUI, QT)
+
+- Dependency Management and Security Analysis
+- Credentials and Key Management
+- Testing
 
 ## Exam
 
-- Analyze: Take a dataset of your choice. Clean it, analyzeit and visualize it.
+- Analyze: Take a dataset of your choice. Clean it, analyze it and visualize it.
 - Contextualize: Describe your key user persona and their aspired actions and targets
 - Implement: Produce an interactive Data Visualization using Shiny
 
 Submission:
 - 2 pages reporting on the Context of your Visualizaton
-- R Files necessary to build the visualization
+- Files necessary to build the visualization
 - Data Files
 - Link to you Github Repo
-- Link to your Shiny Application
-- renv.lock file with all your dependencies  (See: https://rstudio.github.io/renv/articles/collaborating.html)
+- Link to your Application
 
 Limitations:
 You can upload a maximum of 20 files with 30M each during the final exam. If your dataset is larger than 30M please only upload a subset of it.
