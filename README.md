@@ -59,7 +59,7 @@ Hands-on: [Cascading Stylesheets - Chapters 7-10](https://ebookcentral.proquest.
 
 [](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=1664615&query=data%2520vis)
 
-### Let hit Snow 
+### Let it Snow 
 
 - Rebuilding the map that started Public Health
 
